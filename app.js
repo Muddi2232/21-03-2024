@@ -28,11 +28,11 @@
 //     console.log(i*i)
 // }
 
-// var numbers = [50,40,25,60,45,258,10]
-// var smallestNumbers=0
-// for (var i=1;i< numbers.length;i++){
-//     if (numbers[i]>smallestNumbers){
-//         smallestNumbers=numbers[i]
-//     }
-//     console.log(smallestNumbers)
-// }
+var numbers = [50,40,25,60,45,258,10]
+var smallestNumbers=0
+for (var i=1;i< numbers.length;i++){
+    if (numbers[i]>smallestNumbers){
+        smallestNumbers=numbers[i]
+    }
+    console.log(smallestNumbers)
+}
